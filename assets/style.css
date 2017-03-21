@@ -1,0 +1,95 @@
+body {
+  background-color: lightgray;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.panel-custom {
+  margin: 80px auto;
+  padding: 5%;
+}
+
+.table-borderless>tbody>tr>td,
+.table-borderless>tbody>tr>th,
+.table-borderless>tfoot>tr>td,
+.table-borderless>tfoot>tr>th,
+.table-borderless>thead>tr>td,
+.table-borderless>thead>tr>th {
+  border: none !important;
+}
+/*TOP-INFO*/
+.top-info {
+  background-color: rgba(211, 211, 211, 0.14);
+  margin-top: 0;
+  padding: 10px 20px 0 20px;
+  min-height: 200px
+}
+
+.top-info .complete-name {
+  font-size: 26px;
+  text-align: left;
+}
+
+.top-info .complete-name .role {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.top-info .complete-name .name {
+  font-size: 30px;
+}
+
+.top-info .contacts {
+  height: auto;
+}
+
+/*EXPERIENCES*/
+section {
+  margin-top: 50px;
+}
+
+section .row {
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+section p.name {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bolder;
+}
+section p.period {
+  font-size: 12px;
+  font-style: italic;
+}
+section p.role {
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+section p.description-large {
+  margin: auto;
+}
+
+section.privacy {
+  font-style: italic;
+  font-size: 10px;
+  text-align: center;
+}
+
+span.block {
+  display: block;
+}
+
+h3.section-title {
+  margin: auto;
+  border-bottom: 2px solid black;
+}
+
+.revert {
+  unicode-bidi:bidi-override;
+  direction:rtl;
+}
